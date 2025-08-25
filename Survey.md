@@ -50,7 +50,7 @@ Since there are few reviews specifically introducing the development of 3DGS in 
 
 
 
-**\[7]. Learning-based 3D Reconstruction in Autonomous Driving**
+**\[7].** ⭐**Learning-based 3D Reconstruction in Autonomous Driving**
 
 * 🧑‍🎓 **Author**：Liewen Liao, Weihao Yan, Ming Yang, Songan Zhang
 * 🔗 **Link**：\[[arXiv:2503.14537](https://arxiv.org/abs/2503.14537)]
@@ -66,7 +66,7 @@ Since there are few reviews specifically introducing the development of 3DGS in 
 
 
 
-**\[9]. A New Literature Review of 3D Object Detection on Autonomous Driving**
+**\[9].** ⭐**A New Literature Review of 3D Object Detection on Autonomous Driving**
 
 * 🧑‍🎓 **Author**： Peng Zhang, Xin Li, Xin Lin, Liang He
 * 🔗 **Link**：\[[https://www.jair.org/index.php/jair/article/view/15961](https://www.jair.org/index.php/jair/article/view/15961)]
