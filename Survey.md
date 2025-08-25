@@ -4,6 +4,6 @@ Since there are few reviews specifically introducing the development of 3DGS in 
 
 **\[1]. ⭐A Survey on 3D Gaussian Splatting**
 
-* 🧑‍🎓**Author：**Guikun Chen, Wenguan Wang
-* 🔗**Link**：\[[arXiv:2401.03890](https://arxiv.org/abs/2401.03890)]
-* 📖**Introduction：**
+* 🧑‍🎓 **Author**：Guikun Chen, Wenguan Wang
+* 🔗 **Link**：\[[arXiv:2401.03890](https://arxiv.org/abs/2401.03890)]
+* 📖 **Introduction**：
