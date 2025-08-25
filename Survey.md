@@ -12,7 +12,7 @@ Since there are few reviews specifically introducing the development of 3DGS in 
 
 **\[2].** ⭐**Scene reconstruction techniques for autonomous driving: a review of 3D Gaussian splatting**
 
-* 🧑‍🎓 **Author**：Huixin Zhu, Zhili Zhang, Junyang Zhao, Hui Duan, Yao Ding, Xiongwu Xiao \& Junsong Yuan 
+* 🧑‍🎓 **Author**：Huixin Zhu, Zhili Zhang, Junyang Zhao, Hui Duan, Yao Ding, Xiongwu Xiao \& Junsong Yuan
 * 🔗 **Link**：\[[https://link.springer.com/article/10.1007/s10462-024-10955-4](https://link.springer.com/article/10.1007/s10462-024-10955-4)]
 * 📖 **Introduction**：In light of the innovative work and rapid development of 3DGS in the field of autonomous driving, this paper provides a comprehensive review and summary of existing related research to illustrate the evolution of 3DGS technology and its potential future directions.
 
@@ -42,28 +42,40 @@ Since there are few reviews specifically introducing the development of 3DGS in 
 
 
 
-**\[].**
+**\[6]. A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation**
 
-* 🧑‍🎓 **Author**：
-* 🔗 **Link**：\[]
-
-📖 **Introduction**：
-
-
-
-**\[].**
-
-* 🧑‍🎓 **Author**：
-* 🔗 **Link**：\[]
-
-📖 **Introduction**：
+* 🧑‍🎓 **Author**：Shuting He, Peilin Ji, Yitong Yang, Changshuo Wang, Jiayi Ji, Yinglin Wang, Henghui Ding
+* 🔗 **Link**：\[[arXiv:2508.09977](https://arxiv.org/abs/2508.09977)]
+* 📖 **Introduction**：This paper categorizes 3DGS applications into segmentation, editing, generation, and other functional tasks. Although autonomous driving was not mentioned in the survey, these three applications are involved in tasks such as driving environment understanding, autonomous driving testing, and simulation.
 
 
 
-**\[].**
+**\[7]. Learning-based 3D Reconstruction in Autonomous Driving**
 
-* 🧑‍🎓 **Author**：
-* 🔗 **Link**：\[]
+* 🧑‍🎓 **Author**：Liewen Liao, Weihao Yan, Ming Yang, Songan Zhang
+* 🔗 **Link**：\[[arXiv:2503.14537](https://arxiv.org/abs/2503.14537)]
+* 📖 **Introduction**：This survey provides a comprehensive review of the technological evolution and practical applications of learning-based 3D reconstruction technologies (including 3DGS) in the field of autonomous driving.
 
-📖 **Introduction**：
 
+
+**\[8]. Trends and Techniques in 3D Reconstruction and Rendering: A Survey with Emphasis on Gaussian Splatting**
+
+* 🧑‍🎓 **Author**： Wenhe Chen, Zikai Li,  Jingru Guo, Caixia Zheng, Siyi Tian
+* 🔗 **Link**：\[[https://www.mdpi.com/1424-8220/25/12/3626](https://www.mdpi.com/1424-8220/25/12/3626)]
+* 📖 **Introduction**：This paper mentions the application of 3DGS in autonomous driving, such as real-time rendering of dynamic environments to help vehicles perceive complex road conditions and object movements.
+
+
+
+**\[9]. A New Literature Review of 3D Object Detection on Autonomous Driving**
+
+* 🧑‍🎓 **Author**： Peng Zhang, Xin Li, Xin Lin, Liang He
+* 🔗 **Link**：\[[https://www.jair.org/index.php/jair/article/view/15961](https://www.jair.org/index.php/jair/article/view/15961)]
+* 📖 **Introduction**：This paper provides an overview of 3DGS in object detection for autonomous driving, such as using LiDAR and camera data to improve detection accuracy.
+
+
+
+**\[10]. Recent advances in 3D Gaussian splatting**
+
+* 🧑‍🎓 **Author**：Tong Wu, Yu-Jie Yuan, Ling-Xiao Zhang, Jie Yang, Yan-Pei Cao, Ling-Qi Yan, Lin Gao
+* 🔗 **Link**：\[[https://ieeexplore.ieee.org/abstract/document/10897713](https://ieeexplore.ieee.org/abstract/document/10897713)]
+* 📖 **Introduction**：A literature review of recent 3DGS methods, classified by function, such as scene reconstruction, geometric editing, physical simulation, and other downstream applications, including the application of 3DGS in dynamic scene reconstruction, such as novel view synthesis and environment simulation in autonomous driving.
