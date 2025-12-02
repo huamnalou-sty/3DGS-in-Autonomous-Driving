@@ -1,22 +1,20 @@
 # 3D Gaussian Splatting in Autonomous Driving: A Survey of Applications and Directions
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](http://arxiv.org/abs/your-paper-id) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
 This repository is the official implementation and resource collection for the paper **"3D Gaussian Splatting in Autonomous Driving: A Survey of Applications and Directions"**, submitted to **IEEE Transactions on Intelligent Transportation Systems**.
+
+
 
 We aim to systematically outline the key contributions and latest advancements of 3D Gaussian Splatting (3DGS) in autonomous driving. This project will be continuously updated to track frontier research.
 
 ## 📝 Abstract
 
-With the rapid development of autonomous driving technology, the understanding and interaction of the driving environment, as a core component, has increasingly higher requirements for real-time performance and accuracy. **3D Gaussian Splatting (3DGS)**, as an efficient 3D scene reconstruction method, features real-time rendering, high-fidelity reconstruction, and flexible editing capabilities. It can significantly enhance the accuracy of perception, planning, and decision-making, and is gradually replacing implicit reconstruction methods represented by Neural Radiance Fields (NeRF).
+With the rapid development of autonomous driving technology, the understanding and interaction of the driving environment, as a core component, has increasingly higher requirements for real-time performance and accuracy. **3D Gaussian Splatting (3DGS)**, as an efficient 3D scene reconstruction method, features real-time rendering, high-fidelity reconstruction, and flexible editing capabilities. It can significantly enhance the accuracy of perception, planning, and decision-making, and is gradually replacing implicit reconstruction methods represented by Neural Radiance Fields (NeRF), demonstrating broad application potential in the field of autonomous driving. This paper systematically outlines the key contributions and latest advancements of 3DGS in autonomous driving. We first revisit the background of 3DGS, including point-based explicit representations and NeRF, and then introduce its core principles. Subsequently, we categorize and discuss four major application areas of 3DGS in autonomous driving: **scene reconstruction, scene editing, Simultaneous Localization and Mapping (SLAM)**, and **autonomous driving simulation**. Finally, we analyze the challenges faced by 3DGS in autonomous driving applications and explore future research directions, including **structural optimization, integration with other foundation models, Space-Air-Ground Integration, Vehicle-Road-Cloud Integration**, and **quantum computing. This paper aims to provide comprehensive guidance for researchers, fostering further innovation and application of 3DGS in autonomous driving.&#x20;
 
-This paper categorizes and discusses four major application areas of 3DGS in autonomous driving: **Scene Reconstruction, Scene Editing, Simultaneous Localization and Mapping (SLAM), and Autonomous Driving Simulation**. Finally, we analyze the challenges faced by 3DGS in autonomous driving applications and explore future research directions.
-
-## 🗂️ Taxonomy & Paper List
+## 🗂️ Applications Taxonomy
 
 Based on our survey, we categorize 3DGS applications in autonomous driving into the following structure. We will update the paper list under these categories.
 
-### 1. Scene Reconstruction (场景重建)
+### 1. Scene Reconstruction
 
 * **Static Scene Reconstruction**: High-fidelity environmental models for HD maps.
 
@@ -24,7 +22,7 @@ Based on our survey, we categorize 3DGS applications in autonomous driving into 
 
 * **Large-Scale Urban Scene Reconstruction**: City-level 3D maps with memory-efficient strategies.
 
-### 2. Scene Editing (场景编辑)
+### 2. Scene Editing
 
 * **Rich and Flexible Editing**: Object removal, replacement, insertion.
 
@@ -38,7 +36,7 @@ Based on our survey, we categorize 3DGS applications in autonomous driving into 
 
 * **Complex Outdoor Scenes**: Handling unbounded environments.
 
-### 4. Autonomous Driving Simulation (自动驾驶仿真)
+### 4. Autonomous Driving Simulation
 
 * **3D Asset Generation and Insertion**: Enhancing asset realism via diffusion models.
 
@@ -52,26 +50,27 @@ Based on our survey, we categorize 3DGS applications in autonomous driving into 
 
 We also track the latest works related to the future directions proposed in our survey:
 
-* **Structural Optimization**: Sparse Data Reconstruction, Memory-Efficient 3DGS, Real-Time 3DGS, Photo-realistic 3DGS.
+### 1. Structural Optimization
 
-* **Integration with Foundation Models**: SAM, LLM, Diffusion Models.
+* **Sparse Data Reconstruction**
 
-* **Space-Air-Ground Integration**
+* **Memory-Efficient 3DGS**
 
-* **Vehicle-Road-Cloud Integration**
+* **Real-Time 3DGS**
 
-* **Quantum Computing**
+* **Photo-realistic 3DGS**
 
-## 📖 Citation
+### 2. Integration with Foundation Models
 
-If you find this project or our paper helpful for your research, please consider citing:
+* **Segment Anything Model**
 
-```bibtex
-@article{wang20253dgs,
-  title={3D Gaussian Splatting in Autonomous Driving: A Survey of Applications and Directions},
-  author={Wang, Ke and Shao, Tianyi and Li, Zhikang and Gao, Weilin and Lu, Jianbo},
-  journal={Submitted to IEEE Transactions on Intelligent Transportation Systems},
-  year={2025}
-}
-```
+* **Large Language Model**
+
+* **Diffusion Model**
+
+### 3. Space-Air-Ground Integration
+
+### 4. Vehicle-Road-Cloud Integration
+
+### 5. Quantum Computing
 
