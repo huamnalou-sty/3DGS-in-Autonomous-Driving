@@ -1,3 +1,12 @@
+**\[27]. Nighttime Autonomous Driving Scene Reconstruction with Physically-Based Gaussian Splatting (ICRA 2026)**
+
+* 🧑‍🎓 **Author**：Tae-Kyeong Kim, Xingxin Chen, Guile Wu, Chengjie Huang, Dongfeng Bai, Bingbing Liu
+* 🔗 **Link**：\[[arXiv:2602.13549](https://arxiv.org/abs/2602.13549)]
+* 🤔 **Challenge**：Standard 3D Gaussian Splatting (3DGS) methods struggle with complex lighting conditions in nighttime autonomous driving scenes, such as low-light environments, strong light sources (e.g., headlights), specular reflections, and varying illumination, often resulting in poor reconstruction quality, artifacts, and unrealistic rendering.
+* 📖 **Introduction**：This paper focuses on scene reconstruction under nighttime conditions for autonomous driving simulation. The authors propose a novel framework that integrates Physically-Based Rendering (PBR) into 3D Gaussian Splatting. By incorporating lighting decomposition into specular and diffuse components and jointly optimizing BRDF-based material properties within composite scene Gaussian representations, the method achieves more physically realistic reconstructions. It demonstrates improved quality on datasets like Waymo and nuScenes while maintaining real-time rendering capabilities, making it highly suitable for generating high-fidelity nighttime synthetic data for autonomous driving development.
+
+
+
 **\[26]. Dynamic Gaussian Scene Reconstruction from Unsynchronized Videos (AAAI/2025)**
 
 * 🧑‍🎓 **Author**：Zhixin Xu, Hengyu Zhou, Yuan Liu, Wenhan Xue, Hao Pan, Wenping Wang, Bin Wang
