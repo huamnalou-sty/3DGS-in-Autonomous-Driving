@@ -1,3 +1,11 @@
+* **\[28]. PointForward: Feedforward Driving Reconstruction through Point-Aligned Representations**
+* 🧑‍🎓 **Author**：Cheng Chi, Xianqi Wang, Hongcheng Luo, Mingfei Tu, Gangwei Xu, Zehan Zhang, Bing Wang, Guang Chen, Hangjun Ye, Sida Peng, Xin Yang, Haiyang Sun
+* 🔗 **Link**：\[[arXiv:2605.11594](https://arxiv.org/abs/2605.11594)]
+* 🤔 **Challenge**：Existing feedforward 3D Gaussian Splatting (3DGS) methods for autonomous driving mainly rely on pixel-aligned Gaussian prediction, where Gaussians are independently generated from image pixels across views. This often causes multi-view inconsistency, redundant Gaussian primitives, ghosting artifacts, and unstable geometry in dynamic driving scenes. Moreover, previous dynamic modeling approaches typically depend on dense flow prediction and 2D dynamic masks, which lack explicit instance-level consistency and coherent temporal motion representation.
+* 📖 **Introduction**：This paper proposes PointForward, a feedforward driving-scene reconstruction framework based on point-aligned representations. Instead of predicting Gaussians independently from pixels, the method initializes sparse 3D queries directly in world space and aggregates multi-view image features through spatial-temporal fusion, enabling explicit cross-view consistency in a single forward pass. To better model dynamic traffic participants, the framework introduces scene-graph-based dynamic reconstruction using 3D bounding boxes, where moving objects are transformed into canonical coordinate spaces for temporally consistent motion propagation. The method further incorporates depth-aware feature fusion and lifespan modeling to improve geometric coherence across viewpoints and timestamps. Extensive experiments on the Waymo Open Dataset and nuScenes benchmarks demonstrate state-of-the-art performance in both reconstruction quality and dynamic scene consistency, while significantly reducing ghosting artifacts and improving extrapolated-view rendering robustness.
+
+
+
 **\[27]. Nighttime Autonomous Driving Scene Reconstruction with Physically-Based Gaussian Splatting (ICRA 2026)**
 
 * 🧑‍🎓 **Author**：Tae-Kyeong Kim, Xingxin Chen, Guile Wu, Chengjie Huang, Dongfeng Bai, Bingbing Liu
