@@ -1,3 +1,39 @@
+**\[7]. GS-Occ3D: Scaling Vision-only Occupancy Reconstruction for Autonomous Driving with Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Baijun Ye, Minghui Qin, Saining Zhang, Moonjun Gong, Shaoting Zhu, Zebang Shen, Luan Zhang, Lu Zhang, Hao Zhao, Hang Zhao
+* 🔗 **Link**：\[[arXiv:2507.19451](https://arxiv.org/abs/2507.19451)]
+* 🤔 **Challenge**：Large-scale occupancy labels for autonomous driving are hard to obtain with LiDAR, and vision-only occupancy reconstruction suffers from sparse views, occlusion, and dynamic scenes.
+* 📖 **Introduction**：GS-Occ3D uses an octree-based Gaussian surfel representation to reconstruct occupancy from vision-only data. It separately models static background, ground, and dynamic objects, enabling scalable occupancy auto-labeling on Waymo-style driving scenes.
+
+
+
+**\[6]. ST-GS: Vision-Based 3D Semantic Occupancy Prediction with Spatial-Temporal Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Xiaoyang Yan, Muleilan Pei, Shaojie Shen
+* 🔗 **Link**：\[[arXiv:2509.16552](https://arxiv.org/abs/2509.16552)]
+* 🤔 **Challenge**：Gaussian occupancy pipelines are limited by insufficient multi-view spatial interaction and weak temporal consistency across frames.
+* 📖 **Introduction**：ST-GS adds guidance-informed spatial aggregation and geometry-aware temporal fusion to Gaussian-based occupancy prediction. It improves spatial reasoning and temporal continuity for vision-centric autonomous-driving occupancy.
+
+
+
+**\[5]. GraphGSOcc: Semantic and Geometric Graph Transformer for 3D Gaussian Splatting-based Occupancy Prediction**
+
+* 🧑‍🎓 **Author**：Ke Song, Yunhe Wu, Chunchit Siu, Huiyuan Xiong
+* 🔗 **Link**：\[[arXiv:2506.14825](arXiv:2506.14825%5D)]
+* 🤔 **Challenge**：Existing 3DGS occupancy methods can neglect semantic correlations among similar regions and suffer boundary ambiguity due to weak geometric constraints.
+* 📖 **Introduction**：GraphGSOcc builds dual graph attention over Gaussians: one graph captures geometry-aware neighborhoods and another captures semantic similarity. Multi-scale graph attention improves boundary details and object-level topology for driving-scene occupancy prediction.
+
+
+
+**\[4]. S2GO: Streaming Sparse Gaussian Occupancy Prediction**
+
+* 🧑‍🎓 **Author**：Jinhyung Park, Yihan Hu, Chensheng Peng, Wenzhao Zheng, Kris Kitani, Wei Zhan
+* 🔗 **Link**：\[[arXiv:2506.05473](https://arxiv.org/abs/2506.05473)]
+* 🤔 **Challenge**：Dense voxel or dense Gaussian representations are slow and inflexible for online occupancy prediction in dynamic driving scenes.
+* 📖 **Introduction**：S2GO represents the scene using compact 3D queries propagated through time and decoded into semantic Gaussians. Its denoising rendering objective helps capture geometry while enabling faster streaming occupancy prediction on nuScenes and KITTI occupancy benchmarks.
+
+
+
 **\[3]. GaussianFormer3D: Multi-modal Gaussian-based Semantic Occupancy Prediction with 3D Deformable Attention**
 
 * 🧑‍🎓 **Author**：Lingjun Zhao, Sizhe Wei, James Hays, Lu Gan

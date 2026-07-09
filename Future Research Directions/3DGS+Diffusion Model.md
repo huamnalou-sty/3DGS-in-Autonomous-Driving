@@ -1,3 +1,39 @@
+**\[24]. GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors**
+
+* 🧑‍🎓 **Author**：Xingyilang Yin, Qi Zhang, Jiahao Chang, Ying Feng, Qingnan Fan, Xi Yang, Chi-Man Pun, Huaqi Zhang, Xiaodong Cun
+* 🔗 **Link**：\[[arXiv:2508.09667](https://arxiv.org/abs/2508.09667)]
+* 🤔 **Challenge**：Sparse-view 3DGS often produces artifacts, and generic generative priors struggle to stay consistent with the input observations.
+* 📖 **Introduction**：GSFixer trains a reference-guided video restoration diffusion model on paired low-quality 3DGS renders and clean frames. By conditioning on sparse input views plus 2D semantic and 3D geometric features, it improves 3DGS artifact restoration and sparse reconstruction consistency.
+
+
+
+**\[23]. GSFix3D: Diffusion-Guided Repair of Novel Views in Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Jiaxin Wei, Stefan Leutenegger, Simon Schaefer
+* 🔗 **Link**：\[[arXiv:2508.14717](https://arxiv.org/abs/2508.14717)]
+* 🤔 **Challenge**：Extreme novel views and partially observed regions remain under-constrained in 3DGS, producing missing content or severe distortions.
+* 📖 **Introduction**：GSFix3D distills diffusion priors into 3D representations for novel-view repair. Its GSFixer module adapts pretrained generative models to mesh and Gaussian inputs and uses random mask augmentation to improve plausible inpainting of missing regions.
+
+
+
+**\[22]. DirectGaussian: Generating Surface for Text-to-3D using 2D Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Huanning Dong, Fan Li, Ping Kuang, Jianwen Min
+* 🔗 **Link**：\[[arXiv:2510.06967](https://arxiv.org/abs/2510.06967)]
+* 🤔 **Challenge**：Text-to-3D methods driven by 2D diffusion priors often struggle with coherent surface geometry and multi-view normal consistency.
+* 📖 **Introduction**：DirectGaussian represents generated objects as surfels rendered through 2D Gaussian splatting. It uses text-conditioned priors, multi-view normal and texture guidance, and curvature constraints to improve surface consistency during optimization.
+
+
+
+**\[21]. Diffusion-Guided Gaussian Splatting for Large-Scale Unconstrained 3D Reconstruction and Novel View Synthesis**
+
+* 🧑‍🎓 **Author**：Niluthpol Chowdhury Mithun, Tuan Pham, Qiao Wang, Ben Southall, Kshitij Minhas, Bogdan Matei, Stephan Mandt, Supun Samarasekera, Rakesh Kumar
+* 🔗 **Link**：\[[arXiv:2504.01960](https://arxiv.org/abs/2504.01960)]
+* 🤔 **Challenge**：Large-scale unconstrained reconstruction suffers from sparse coverage, transient occluders, appearance variation, and inconsistent camera conditions.
+* 📖 **Introduction**：GS-Diff uses a multi-view diffusion model to generate pseudo-observations and converts under-constrained reconstruction into a better-supervised optimization problem. It also integrates depth priors, dynamic object handling, appearance embeddings, and regularization for robust real-world novel-view synthesis.
+
+
+
 **\[20]. L3DG: Latent 3D Gaussian Diffusion (SIGGRAPH Asia 2024)**
 
 * 🧑‍🎓 **Author**：Barbara Roessle, Norman Müller, Lorenzo Porzi, Samuel Rota Bulò, Peter Kontschieder, Angela Dai, Matthias Nießner
@@ -175,3 +211,4 @@
 * 🔗 **Link**：\[[arXiv:2406.07472](https://arxiv.org/abs/2406.07472)]
 * 🤔 **Challenge**：Generating dynamic 4D scenes from text or video is difficult due to the lack of diverse 4D data, and existing methods often struggle to maintain both photorealism and temporal consistency when handling complex real-world motions.
 * 📖 **Introduction**：4Real introduces a pipeline that leverages the priors of video diffusion models to supervise Deformable 3D Gaussian Splatting (D-3DGS). By creating "freeze-time" videos and employing Score Distillation Sampling (SDS), it generates high-fidelity, spatiotemporally consistent 4D scenes from text prompts.
+

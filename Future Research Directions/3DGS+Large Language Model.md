@@ -1,3 +1,30 @@
+**\[14]. SLAG: Scalable Language-Augmented Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Laszlo Szilagyi, Francis Engelmann, Jeannette Bohg
+* 🔗 **Link**：\[[arXiv:2505.08124](https://arxiv.org/abs/2505.08124)]
+* 🤔 **Challenge**：Large-scale language-augmented 3DGS scenes are expensive to encode, store, and retrieve, limiting robotics and city-scale applications.
+* 📖 **Introduction**：SLAG is a scalable multi-GPU pipeline for injecting SAM/CLIP language features into Gaussian scenes. It derives per-Gaussian embeddings through normalized weighted averaging and stores them in a vector database for efficient open-vocabulary retrieval.
+
+
+
+**\[13]. Semantic Consistent Language Gaussian Splatting for Point-Level Open-vocabulary Querying**
+
+* 🧑‍🎓 **Author**：Hairong Yin, Huangying Zhan, Yi Xu, Raymond A. Yeh
+* 🔗 **Link**：\[[arXiv:2503.21767](https://arxiv.org/abs/2503.21767)]
+* 🤔 **Challenge**：LangSplat-style methods often retrieve semantic regions through 2D masks, while point-level Gaussian querying requires more stable 3D semantic supervision.
+* 📖 **Introduction**：This work uses SAM2 masklets to build semantically consistent distillation targets and proposes a two-step point-level querying pipeline. It improves direct selection of semantically relevant Gaussians under open-vocabulary queries.
+
+
+
+**\[12]. 3D Vision-Language Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Qucheng Peng, Benjamin Planche, Zhongpai Gao, Meng Zheng, Anwesa Choudhuri, Terrence Chen, Chen Chen, Ziyan Wu
+* 🔗 **Link**：\[[arXiv:2410.07577](https://arxiv.org/abs/2410.07577)]
+* 🤔 **Challenge**：Embedding language features into 3D reconstruction can overfit the color modality and produce weak semantic rasterization for translucent or reflective regions.
+* 📖 **Introduction**：This paper proposes a cross-modal rasterizer and semantic-consistency mechanisms for 3D vision-language Gaussian Splatting. It balances visual and language modalities and improves open-vocabulary semantic segmentation in 3D scenes.
+
+
+
 **\[11]. MiDSummer: Multi-Guidance Diffusion for Controllable Zero-Shot Immersive Gaussian Splatting Scene Generation (ICCV 2025)**
 
 * 🧑‍🎓 **Author**：Hu, Anjun and Tomsett, Richard and Gourmet, Valentin and Camplani, Massimo and Kandola, Jas and Xie, Hanting
@@ -103,3 +130,4 @@
 * 🔗 **Link**：\[[arXiv:2408.03516](https://arxiv.org/abs/2408.03516)]
 * 🤔 **Challenge**：Open-vocabulary querying in 3D scenes (especially for autonomous driving) is critical but challenging; traditional methods relying on fixed canonical phrases fail to capture the subtle distinctions and deep scene understanding required for complex, context-dependent queries.
 * 📖 **Introduction**：Query3D enhances Language Embedded 3D Gaussian Splatting (LE3DGS) with an LLM-powered query processing pipeline. It employs LLMs to dynamically generate "context-aware canonical phrases" and "helping positive words" that serve as semantic anchors, enabling precise, open-vocabulary segmentation and object localization that significantly outperforms fixed-phrase baselines.
+
