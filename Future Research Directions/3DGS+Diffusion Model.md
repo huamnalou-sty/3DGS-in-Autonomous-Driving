@@ -1,3 +1,12 @@
+**\[25]. OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Atakan Topaloglu, Kunyi Li, Michael Niemeyer, Nassir Navab, A. Murat Tekalp, Federico Tombari
+* 🔗 **Link**：\[[arXiv:2509.23258](https://arxiv.org/abs/2509.23258)]
+* 🤔 **Challenge**：Generative priors can complete missing scene regions but may hallucinate geometry that conflicts with multi-view evidence.
+* 📖 **Introduction**：OracleGS follows a propose-and-validate strategy. A 3D-aware diffusion model proposes novel views, while an MVS model acts as an uncertainty oracle to validate generated content before it supervises Gaussian optimization. This is valuable for safety-critical scenes where plausible hallucination must be filtered by geometry.、
+
+
+
 **\[24]. GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors**
 
 * 🧑‍🎓 **Author**：Xingyilang Yin, Qi Zhang, Jiahao Chang, Ying Feng, Qingnan Fan, Xi Yang, Chi-Man Pun, Huaqi Zhang, Xiaodong Cun
