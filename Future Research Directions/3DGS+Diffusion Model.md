@@ -1,9 +1,27 @@
+**\[27]. Nix and Fix: Targeting 1000x Compression of 3D Gaussian Splatting with Diffusion Models**
+
+* 🧑‍🎓 **Author**：Cem Eteke, Enzo Tartaglione
+* 🔗 **Link**：\[[arXiv:2602.04549](https://arxiv.org/abs/2602.04549)]
+* 🤔 **Challenge**：3DGS provides real-time rendering but has large storage overhead; extreme compression causes severe perceptual artifacts.
+* 📖 **Introduction**：NiFi targets ultra-low-rate 3DGS compression by combining aggressive pruning/compression with artifact-aware diffusion restoration and one-step distillation. This direction is useful for deployable autonomous-driving maps or edge-side 3DGS assets where bandwidth and storage are constrained.
+
+
+
+**\[26]. FreeFix: Boosting 3D Gaussian Splatting via Fine-Tuning-Free Diffusion Models**
+
+* 🧑‍🎓 **Author**：Atakan Topaloglu, Kunyi Li, Michael Niemeyer, Nassir Navab, A. Murat Tekalp, Federico Tombari
+* 🔗 **Link**：\[[arXiv:2601.20857](https://arxiv.org/abs/2601.20857)]
+* 🤔 **Challenge**：Sparse-view 3DGS degrades at extrapolated viewpoints, while fine-tuned diffusion repair can overfit and fine-tuning-free repair can lack fidelity.
+* 📖 **Introduction**：FreeFix uses pretrained image diffusion models without fine-tuning and applies interleaved 2D-3D refinement. It introduces confidence masks to focus diffusion refinement on uncertain pixels, making it a practical prior for sparse-view novel-view synthesis.
+
+
+
 **\[25]. OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting**
 
 * 🧑‍🎓 **Author**：Atakan Topaloglu, Kunyi Li, Michael Niemeyer, Nassir Navab, A. Murat Tekalp, Federico Tombari
 * 🔗 **Link**：\[[arXiv:2509.23258](https://arxiv.org/abs/2509.23258)]
 * 🤔 **Challenge**：Generative priors can complete missing scene regions but may hallucinate geometry that conflicts with multi-view evidence.
-* 📖 **Introduction**：OracleGS follows a propose-and-validate strategy. A 3D-aware diffusion model proposes novel views, while an MVS model acts as an uncertainty oracle to validate generated content before it supervises Gaussian optimization. This is valuable for safety-critical scenes where plausible hallucination must be filtered by geometry.、
+* 📖 **Introduction**：OracleGS follows a propose-and-validate strategy. A 3D-aware diffusion model proposes novel views, while an MVS model acts as an uncertainty oracle to validate generated content before it supervises Gaussian optimization. This is valuable for safety-critical scenes where plausible hallucination must be filtered by geometry.
 
 
 

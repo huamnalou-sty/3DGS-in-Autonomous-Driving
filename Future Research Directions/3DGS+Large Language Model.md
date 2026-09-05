@@ -1,3 +1,21 @@
+**\[16]. OpenSplat3D: Open-Vocabulary 3D Instance Segmentation using Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Jens Piekenbrinck, Christian Schmidt, Alexander Hermans, Narunas Vaskevicius, Timm Linder, Bastian Leibe
+* 🔗 **Link**：\[[arXiv:2506.07697](https://arxiv.org/abs/2506.07697)]
+* 🤔 **Challenge**：3DGS scenes need language-controllable instance segmentation without dense manual 3D labels.
+* 📖 **Introduction**：OpenSplat3D attaches semantic and instance information to individual Gaussians using feature splatting, SAM masks, contrastive learning, and vision-language embeddings. It supports text-driven instance identification in reconstructed 3D scenes.
+
+
+
+**\[15]. CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting**
+
+* 🧑‍🎓 **Author**：Lei Tian, Xiaomin Li, Liqian Ma, Hefei Huang, Zirui Zheng, Hao Yin, Taiqing Li, Huchuan Lu, Xu Jia
+* 🔗 **Link**：\[[arXiv:2505.20469](https://arxiv.org/abs/2602.04549)]
+* 🤔 **Challenge**：2D vision-language supervision can be inconsistent across views due to blur, occlusion, and view-dependent appearance, causing semantic conflicts in 3D Gaussian language fields.
+* 📖 **Introduction**：CCL-LGS aligns SAM masks across views, extracts CLIP features, and uses contrastive codebook learning to enforce intra-class compactness and inter-class separation. It improves semantic consistency for language Gaussian Splatting.
+
+
+
 **\[14]. SLAG: Scalable Language-Augmented Gaussian Splatting**
 
 * 🧑‍🎓 **Author**：Laszlo Szilagyi, Francis Engelmann, Jeannette Bohg
